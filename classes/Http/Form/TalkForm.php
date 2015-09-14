@@ -102,6 +102,7 @@ class TalkForm extends Form
     public function validateType()
     {
         $validTalkTypes = array(
+            'short',
             'regular',
             'tutorial'
         );

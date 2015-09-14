@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color: #e24b3b;
+  color: #617CBE;
 }
 
 a:hover {
@@ -18,7 +18,7 @@ a:hover {
 }
 
 .header {
-  background: #e24b3b;
+  background: #617CBE;
   color: #FFF;
   padding: 6rem 0;
 }
@@ -47,7 +47,7 @@ a:hover {
 }
 
 .section--primary {
-  background: #e24b3b;
+  background: #617CBE;
   color: #FFF;
 }
 
