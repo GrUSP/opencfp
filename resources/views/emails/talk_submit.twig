@@ -5,7 +5,7 @@
 
 {% block body_html %}
     <p>
-        Thanks for submitting your talk for {{ title }} {{ arrival || date_format('Y') }} Digital Edition!
+        Thanks for submitting your talk for {{ title }} Digital Edition!
     </p>
     <p>
         Submitted Talk Title: "{{ talk }}"
@@ -13,52 +13,52 @@
     <p>
         The deadline to apply to our CFP is {{ enddate }}. We will let you know about your proposal 3 weeks after the
         closing date.
-        In the meantime, please share that you submitted your talk for {{ title }} {{ arraival || date_format('Y') }} on
-        your social and ask your followers to vote for your topic on this form: http://tiny.cc/{{ title }}topics
+        In the meantime, please share that you submitted your talk for {{ title }} on
+        your social and ask your followers to vote for your topic on this form: http://tiny.cc/phpdaytopics
     </p>
     <p>
         We will also evaluate the proposals based on the topics selected by the community ;)
     </p>
     <p>
         No idea what to write? Here is some ready-made copy you can use
-        <a href="https://sites.google.com/grusp.org/partner/{{ title }}/copy"></a>
+        <a href="https://sites.google.com/grusp.org/partner/phpday/copy"></a>
     </p>
     <p>
-        Do you want to tweet about it? Click <a href="http://tiny.cc/CFPfilledin-{{ title }}">here</a>
+        Do you want to tweet about it? Click <a href="http://tiny.cc/CFPfilledin-phpday">here</a>
     </p>
     <p> As a small token of appreciation for submitting a talk, here is a 5% discount to share with your contacts:
-        CFP_{{ title }}_OFF5
+        CFP_phpday_OFF5
     </p>
     <p> Should you need assistance, please do not hesitate to contact us.
     </p>
     <p>
         Thanks again and good Luck!<br>
-        The {{ title }} Team
+        The GrUSP Team
     </p>
 {% endblock %}
 
 {% block body_text %}
-Thanks for submitting your talk for {{ title }} {{ arrival || date_format('Y') }} Digital Edition!
+Thanks for submitting your talk for {{ title }} Digital Edition!
 
 Submitted Talk Title: "{{ talk }}"
 
 The deadline to apply to our CFP is {{ enddate }}. We will let you know about your proposal 3 weeks after the
 closing date.
 
-In the meantime, please share that you submitted your talk for {{ title }} {{ arraival || date_format('Y') }} on
-your social and ask your followers to vote for your topic on this form: http://tiny.cc/{{ title }}topics
+In the meantime, please share that you submitted your talk for {{ title }} on
+your social and ask your followers to vote for your topic on this form: http://tiny.cc/phpdaytopics
 
 We will also evaluate the proposals based on the topics selected by the community ;)
 
-No idea what to write? Here is some ready-made copy you can use  https://sites.google.com/grusp.org/partner/{{ title }}/copy
+No idea what to write? Here is some ready-made copy you can use  https://sites.google.com/grusp.org/partner/phpday/copy
 
-Do you want to tweet about it? Click here: http://tiny.cc/CFPfilledin-{{ title }}
+Do you want to tweet about it? Click here: http://tiny.cc/CFPfilledin-phpday
 
-As a small token of appreciation for submitting a talk, here is a 5% discount to share with your contacts: CFP_{{ title }}_OFF5
+As a small token of appreciation for submitting a talk, here is a 5% discount to share with your contacts: CFP_phpday_OFF5
 
 Should you need assistance, please do not hesitate to contact us.
 
 Thanks again and good Luck!
 --
-The {{ title }} Team
+The GrUSP Team
 {% endblock %}
